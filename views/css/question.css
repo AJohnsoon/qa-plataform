@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    height: 100px;
+    background-color: #18b9d6e7;
+}
+.header h1{
+    text-align: center;
+}
+
+.header a{
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.questions{
+    margin: 70px auto;
+    width: 800px;
+    font-size: 30px;
+    background-color: #fdf3f3
+}
+
+
+.questions label {
+    margin: 15px 30px;
+}
+
+.questions input{
+    height: 50px;
+    width: 700px;
+    margin: 5px 30px;
+    font-size: 20px;
+}
+
+.questions textarea{
+    height: 200px;
+    width: 700px;
+    margin: 5px 30px;
+    font-size: 20px;
+}
+
+.questions button{
+    margin: 5px 30px 30px 30px;
+    background-color: #18b9d6e7;
+}
+
+.questions .btnSend{
+    height: 50px;
+    width: 100px;
+}
+.questions .btnClear{
+    height: 50px;
+    width: 100px;
+}
+
+.answer{
+    margin-top: 35px;
+    width: 600px;
+    float: right;
+    background: #fff ;
+}
+
