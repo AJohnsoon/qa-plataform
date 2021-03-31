@@ -1,10 +1,9 @@
-<form class="questions">
-    
-        <label>Title</label><br>
-        <input placeholder="write your title here"/><br>
-        <label>Description</label><br>
-        <textarea placeholder="write your question here" maxlength="300" minlength="1"></textarea>
-        <button class="btnSend">Send </button>
-        <button class="btnClear">Clear</button>
-  
-</form>
+<div class="questions">
+        <form method="POST" action="/saveQuestions">
+                <label>Title</label><br>
+                <input name="title" placeholder="write your title here" required  /><br>
+                <label>Description</label><br>
+                <textarea name="description" placeholder="write your question here" maxlength="300" minlength="1" required> </textarea>
+                <button class="btnSend">Ask Question</button>
+        </form>
+</div>
