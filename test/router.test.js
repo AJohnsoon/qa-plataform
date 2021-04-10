@@ -1,4 +1,5 @@
 const routers = require('../routes');
+
 const testRoute = {
     title: 'Main test title',
     description: 'Main test Description',
@@ -13,6 +14,6 @@ describe('exemple router', ()=>{
         })
         
         expect(testRoute.description).toBe('Main test Description')
-    
+        expect(testRoute.status).toEqual(200)
     })
 })
