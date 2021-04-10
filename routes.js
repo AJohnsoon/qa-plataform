@@ -1,6 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const router = express();
+const questionModel = require('./database/Question');
+
 
 router.set('view engine', 'ejs');
 router.use(express.static(__dirname + '/views'));
@@ -22,7 +24,13 @@ router.post('/saveQuestions', (req, res) => {
         descriptionQuestion: req.body.description
     }
 
-    res.send(question);
+    questionModel.create({
+        title: question.titleQuestion,
+        description: question.descriptionQuestion
+    }).then(() => {
+        res.redirect('/');
+    });
+   
 });
 
 

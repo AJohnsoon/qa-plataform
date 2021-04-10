@@ -13,3 +13,5 @@ const Question = connection.define('Questions',{
 });
 
 Question.sync({force: false}).then(()=>{console.log('table (question) successfully created')});
+
+module.exports = Question
