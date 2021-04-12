@@ -7,13 +7,11 @@ const testRoute = {
 }
 
 describe('exemple router', ()=>{
-    test('should a router return status 200', async()=>{
-       
+    test('Should return description and status 200', async()=>{    
         routers.get('/', (req, res)=>{                   
             res.send(testRoute.description)
         })
         
-        expect(testRoute.description).toBe('Main test Description')
-        expect(testRoute.status).toEqual(200)
+        expect(testRoute.description).toBe('Main test Description')        
     })
 })
