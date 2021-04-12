@@ -11,7 +11,11 @@ router.use(bodyParser.json());
 
 
 router.get('/', (req, res) => {
-    res.render('answers', {});
+    questionModel.findAll({raw: true}).then(questions => {
+        res.render('answers', {
+            questions: questions
+        });
+    });
 });
 
 router.get('/question', (req, res) => {

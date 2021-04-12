@@ -1,6 +1,34 @@
 .answer{
-    margin-top: 35px;
-    width: 600px;
-    float: right;
-    background: #fff ;
+    margin: 100px auto;
+    width: 800px;
+    height: auto;
+    padding: 3px;
+    background-color: #fdf3f37a
+
+}
+
+header{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+
+.btn-answer{
+    margin: 10px 0px 0px 20px;
+    width: 80px;
+    height: 30px;
+    background-color: #18b9d6e7;
 }
