@@ -1,20 +1,30 @@
 .answer{
-    margin: 100px auto;
+    margin: 60px auto;
     width: 800px;
     height: auto;
     padding: 3px;
-    background-color: #fdf3f37a
-
+    background-color: #fdf3f37a;
 }
 
 header{
     margin-left: 20px;
     margin-top: 15px;
+    padding-left: 3px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 30px;
 
 }
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.design{
+    border-style:solid;
+    margin: 20px;
+}
+
 
 p{
     margin-left: 20px;
@@ -27,7 +37,7 @@ hr{
 
 
 .btn-answer{
-    margin: 10px 0px 0px 20px;
+    margin: 10px 0px 20px 20px;
     width: 80px;
     height: 30px;
     background-color: #18b9d6e7;

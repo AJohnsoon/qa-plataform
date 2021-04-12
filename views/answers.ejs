@@ -12,19 +12,17 @@
 
 <body>
     <%- include ('partials/header.ejs') %>
-        <div class="answer">
-            <form>
-            <% questions.forEach(question=>{ %>
-                <header><%= question.title %></header>
-                <p><%= question.description %></p>
-                
-                    <button class="btn-answer"> Answer </button>               
-                <hr>
-            <% }) %>
-            </form>
+    <div class="answer"> 
+        <h1>all questions </h1>
+        <% questions.forEach(question=>{ %>
+        <div class="design">                 
+            <header><%= question.title %></header>
+            <a href="/question/<%= question.id %>" ><button class="btn-answer"> Answer </button></a>        
         </div>
-
-
+        <% }) %>
+        <hr>
+        </div>
+    </div>
 </body>
 
 </html>
