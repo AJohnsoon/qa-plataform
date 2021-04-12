@@ -16,3 +16,16 @@ yarn OR npm install
 ```
 yarn test 
 ```
+---
+
+
+
+
+## REQUIRED IMPROVEMENTS 
+
+ - edit a comment 
+ - search a question 
+ - correct sending empty message in `textarea`
+ - add architecture division `{MVC}`
+
+
